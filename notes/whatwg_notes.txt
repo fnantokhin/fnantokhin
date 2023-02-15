@@ -1,0 +1,125 @@
+learning html by reading w3.org specification experiment
+
+03.02.2022
+
+#__WIKI:
+
+World Wide Web Consortium (W3C) is the main international standards
+organisation for world wide web (?). 
+
+W3C was founded in 1994
+W3C is led by Tim Berners-Lee
+
+W3C is made up of member organisation that maintain full-time staff
+
+W3C function is the development of standards for the WWW. 
+W3C also engages in education, outreach, develops software and is like an
+open forum for discussion about the "Web"
+
+...
+founded at MIT in 1994 by Tim Berners-Lee after he left CERN. W3C attempt to
+get all vendors to implement core principles and elements chosen by the
+consortium. W3C standards have 4 levels of development with 4th being W3C
+recommendation (REC)
+consortium is governed by its membership. The list of members is available to
+the public. It includes businesses, non profit, universities, governmental,
+and individuals.
+
+#___WHATWG
+WHATWG was founded in 2004
+WHATWG was founded by Apple inc, Mozilla, Opera, leading browser vendors
+WHATWG central membership and control is steering group, it consists of
+Apple, Mozilla, Google, Microsoft.
+
+#___whatwg.org/dev
+estimated reading time ~110h #0/110 
+
+from introduction:
+
+__is this html5? 
+~yes. html5 is a buzzword meant to encompass modern web technologies 
+
+__background:
+html is www core markup language. Original intended use was semantically
+describing scientific documents. Its general design enabled it to be adapted
+to describe other types of documents and applications
+
+__audience:
+this document is not suited for readers that don't have at least a minimal
+knowledge of web technologies, as in places it sacrifices clarity for
+precision and brevity for completeness. Familiarity with basics of DOM is
+necessary for a complete understanding of a more technical aspects of the
+documentation. And understanding of JS, CSS, HTTP, XML, Unicode, character
+encodings, Web IDL will also be helpful.
+
+#___DOM (from mozilla):
+DOM stands for Document Object Model. JavaScript is typically used to access
+DOM. All properties, methods and events available for manipulating and
+creating webpages are organized into objects. The DOM is built using multiple
+APIs that work together. Core DOM defines the entities describing any document
+and objects within it. i.e. it represents a document tree and each branch of a
+tree ends in a node. DOM methods allow programmatic access to the tree. With
+them it is possible to change document structure, style or context. 
+DOM is connecting web pages to scripts or programming languages (JavaScript)
+by representing structure of the document in memory.
+
+DOM is not a programming
+language in itself. DOM is a WEB (WWW) API (Application Programming Interface)
+
+beyond core DOM, there is HTML DOM representing every HTML element, and
+others: SVG, XML.
+
+#___WWW (wiki, intro)
+World Wide Web (WWW) commonly know as Web is an information system enabling
+documents and other web resources to be accessed over internet. 
+
+Documents and downloadable media is made available through web servers, and
+can be accessed by programs such as browsers. This servers and resources are
+identified by URL (Uniform Resource Locator). Original and still very common
+resource type is a web page formatted in HTML. 
+
+The information in the Web is transferred over the internet using HTTP
+(HyperText Transfer Protocol)
+
+Multiple web resources with a common theme and a common domain name make up a
+website. One server can host many unpopular websites, while popular websites
+are hosted using several servers. 
+
+WWW is word dominant software platform. It is primary tool people use to
+interact with internet. 
+
+__The Web was invented in CERN by Tim Berners-Lee in 1989 and opened to
+general public in 1991. It was conceived as universal linked information
+system.
+
+#___Internet (wiki, intro)
+a global system of interconnected computer networks using TCP/IP (internet protocol suite) to communicate between network and devices. It is a network of networks (internetworking) such that any pair of hosts in the connected networks can
+exchange messages without being limited by the differences of their hardware-level networking technologies. 
+
+#!_Internet is using internet protocol suite = TCP/IP. 
+#!_There are 2 principal name spaces 'on the internet' IP = Internet Protocol
+address and DNS = Domain Name System, directed by Internet Corporation for
+Assigned Names and Numbers = ICANN. 
+
+i.e. computers AB1 and AB2 are connected to a wi-fi(tm) network though a
+router (?), and router is connected to a broadband/cable modem
+(modulator/demodulator) connected by DSL (Digital Subscriber Line) with ISP (internet service provider) infrastructure. 
+ISP are divided into 3 tiers 
+ Tier 1 - 
+  transit free network that peers with every other Tier 1 network
+ Tier 2 -
+  has some peers but still purchases IP transit to reach some parts of the
+  internet
+ Tier 3 -
+  network purchases IP transit with no peers
+Both AB1 and AB2 can connect to any other computer routed to any ISP.
+
+Internet enables such services as telephony, file sharing, electronic mail,
+interlinked hypertext documents of WWW. 
+
+IETF = Internet Engineering Task Force is working on developing technologies
+that enable the Internet.
+
+___HTTP
+
+___TCP/IP
